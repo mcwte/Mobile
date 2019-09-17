@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Labs</string>
+    <string name="hello_message">Hello World!</string>
+    <string name="ButtonText">I\’m a button</string>
+    <string name="look">看看我的GUI</string>
+    <string name="click">点击这里</string>
+    <string name="check">看一下这个！</string>
+    <string name="onoff">打开/关闭</string>
+    <string name="typehere">在此输入</string>
+</resources>
