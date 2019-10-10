@@ -8,4 +8,20 @@
     <string name="check">看一下这个！</string>
     <string name="onoff">打开/关闭</string>
     <string name="typehere">在此输入</string>
+
+    <string name="email">输入您的电子邮件地址:</string>
+    <string name="emailT">在此处输入电子邮件</string>
+    <string name="password">输入密码:</string>
+    <string name="login">登录</string>
+    <string name="profile">轮廓</string>
+    <string name="name">你的名字:</string>
+    <string name="emailA">你的邮件our email:></string>
+    <string name="nameE">输入你的名字</string>
+    <string name="enterE">输入你的电子邮箱</string>
+    <string name="picture">你的图片</string>
+    <string name="click1">点击上方的按钮拍照</string>
+    <string name="chat">点击上方的按</string>
+    <string name="receive">的图片</string>
+    <string name="send">的图片</string>
+
 </resources>

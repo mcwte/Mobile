@@ -8,4 +8,19 @@
 <string name="check">Look at this!</string>
 <string name="onoff">On/off</string>
 <string name="typehere">Enter Here</string>
+
+    <string name="email">Enter your email address:</string>
+    <string name="emailT">Type email here</string>
+    <string name="password">Type your password:</string>
+    <string name="login">login</string>
+    <string name="profile">Your profile</string>
+    <string name="name">Your name:</string>
+    <string name="emailA">Your email:></string>
+    <string name="nameE">Enter your name</string>
+    <string name="enterE">Enter your email</string>
+    <string name="picture">Your picture</string>
+    <string name="click1">Click the button above to take a picture</string>
+    <string name="chat">Go to chat</string>
+    <string name="receive">Receive</string>
+    <string name="send">Send</string>
 </resources>
