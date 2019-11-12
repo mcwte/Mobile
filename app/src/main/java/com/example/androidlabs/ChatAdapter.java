@@ -10,11 +10,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-public class ChatListAdapter extends BaseAdapter {
+public class ChatAdapter extends BaseAdapter {
     private Context c;
     private ArrayList<Message> array;
 
-    public ChatListAdapter(Context c, ArrayList<Message> messages){
+    public ChatAdapter(Context c, ArrayList<Message> messages){
         super();
         this.c = c;
         this.array = messages;

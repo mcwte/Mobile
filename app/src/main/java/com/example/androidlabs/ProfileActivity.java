@@ -8,13 +8,15 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
-public class ProfileActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity implements View.OnClickListener{
 
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
     ImageButton squareButton;
+    Button chatButton;
     EditText emailEditText;
     ImageButton mImageButton;
 
@@ -27,15 +29,29 @@ public class ProfileActivity extends AppCompatActivity {
         emailEditText = findViewById(R.id.email);
         emailEditText.setText(intent.getStringExtra("email"));
         squareButton = findViewById(R.id.squareButton);
+        chatButton = findViewById(R.id.chat);
         mImageButton = findViewById(R.id.squareButton);
-        squareButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                dispatchTakePictureIntent();
-            }
+        squareButton.setOnClickListener(this);
+        chatButton.setOnClickListener(this);
 
-        });
     }
+    @Override
+    public void onClick(View v){
 
+        switch (v.getId()) {
+
+            case R.id.squareButton:
+                dispatchTakePictureIntent();
+
+                break;
+
+            case R.id.chat:
+                Intent chatRoomActivityIntent = new Intent(getApplicationContext(), ChatRoomActivity.class);
+                startActivity(chatRoomActivityIntent);
+                break;
+
+        }
+    }
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
     private void dispatchTakePictureIntent() {
