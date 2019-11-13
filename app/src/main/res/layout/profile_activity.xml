@@ -53,6 +53,7 @@
         android:layout_height="35dp"
         android:orientation="vertical"
         android:text="@string/click1" />
+
     <Button
         android:id="@+id/chat"
         android:layout_width="match_parent"
@@ -60,4 +61,9 @@
         android:layout_weight="0"
         android:text="@string/chat" />
 
+    <Button
+        android:id="@+id/weatherForecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weatherForecast" />
 </LinearLayout>

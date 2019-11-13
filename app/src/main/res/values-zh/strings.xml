@@ -23,5 +23,10 @@
     <string name="chat">点击上方的按</string>
     <string name="receive">的图片</string>
     <string name="send">的图片</string>
+    <string name="weatherForecast">处输入电子邮</string>
+    <string name="current">方的按钮拍</string>
+    <string name="min">上电</string>
+    <string name="max">电电</string>
+    <string name="uv">击电</string>
 
 </resources>

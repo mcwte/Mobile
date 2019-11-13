@@ -1,26 +1,29 @@
 <resources>
-<string name="app_name">Android Labs</string>
-<string name="hello_message">Hello World!</string>
-<string name="ButtonText">I\’m a button</string>
-<string name="look">Look at my GUI</string>
-<string name="click">CLICK HERE</string>
-<string name="check">Check this out!</string>
-<string name="onoff">Switch on/off</string>
-<string name="typehere">Type Here</string>
-
-<string name="email">Enter your email address:</string>
-<string name="emailT">Type email here</string>
-<string name="password">Type your password:</string>
-<string name="login">login</string>
-<string name="profile">Your profile</string>
-<string name="name">Your name:</string>
-<string name="emailA">Your email:></string>
-<string name="nameE">Enter your name</string>
-<string name="enterE">Enter your email</string>
-<string name="picture">Your picture</string>
-<string name="click1">Click the button above to take a picture</string>
+    <string name="app_name">Android Labs</string>
+    <string name="hello_message">Hello World!</string>
+    <string name="ButtonText">I\’m a button</string>
+    <string name="look">Look at my GUI</string>
+    <string name="click">CLICK HERE</string>
+    <string name="check">Check this out!</string>
+    <string name="onoff">Switch on/off</string>
+    <string name="typehere">Type Here</string>
+    <string name="email">Enter your email address:</string>
+    <string name="emailT">Type email here</string>
+    <string name="password">Type your password:</string>
+    <string name="login">login</string>
+    <string name="profile">Your profile</string>
+    <string name="name">Your name:</string>
+    <string name="emailA">Your email:></string>
+    <string name="nameE">Enter your name</string>
+    <string name="enterE">Enter your email</string>
+    <string name="picture">Your picture</string>
+    <string name="click1">Click the button above to take a picture</string>
     <string name="chat">Go to chat</string>
     <string name="receive">Receive</string>
     <string name="send">Send</string>
-
+    <string name="weatherForecast">Weather Forecast</string>
+    <string name="current">Current Temperature</string>
+    <string name="min">Min Temperature</string>
+    <string name="max">Max Temperature</string>
+    <string name="uv">UV Rating</string>
 </resources>

@@ -19,6 +19,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     Button chatButton;
     EditText emailEditText;
     ImageButton mImageButton;
+    Button weatherForecast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,10 +30,12 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         emailEditText = findViewById(R.id.email);
         emailEditText.setText(intent.getStringExtra("email"));
         squareButton = findViewById(R.id.squareButton);
-        chatButton = findViewById(R.id.chat);
         mImageButton = findViewById(R.id.squareButton);
         squareButton.setOnClickListener(this);
+        chatButton = findViewById(R.id.chat);
         chatButton.setOnClickListener(this);
+        weatherForecast = findViewById(R.id.weatherForecast);
+        weatherForecast.setOnClickListener(this);
 
     }
     @Override
@@ -42,12 +45,16 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
             case R.id.squareButton:
                 dispatchTakePictureIntent();
-
                 break;
 
             case R.id.chat:
                 Intent chatRoomActivityIntent = new Intent(getApplicationContext(), ChatRoomActivity.class);
                 startActivity(chatRoomActivityIntent);
+                break;
+
+            case R.id.weatherForecast:
+                Intent weatherForecastIntent = new Intent(getApplicationContext(), WeatherForecast.class);
+                startActivity(weatherForecastIntent);
                 break;
 
         }

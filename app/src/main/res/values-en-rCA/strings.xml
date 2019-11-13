@@ -23,4 +23,9 @@
     <string name="chat">Go to chat</string>
     <string name="receive">Receive</string>
     <string name="send">Send</string>
+    <string name="weatherForecast">Weather Forecast</string>
+    <string name="current">Current Temperature</string>
+    <string name="min">Min Temperature</string>
+    <string name="max">Max Temperature</string>
+    <string name="uv">UV Rating</string>
 </resources>
