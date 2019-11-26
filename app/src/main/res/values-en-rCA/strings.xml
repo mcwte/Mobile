@@ -28,4 +28,5 @@
     <string name="min">Min Temperature</string>
     <string name="max">Max Temperature</string>
     <string name="uv">UV Rating</string>
+    <string name="toolbar">Toolbar</string>
 </resources>

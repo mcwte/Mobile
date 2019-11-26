@@ -12,6 +12,7 @@
         <activity android:name=".WeatherForecast"></activity>
         <activity android:name=".ChatRoomActivity"></activity>
         <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ToolBar" />
         <activity android:name=".MainActivity">
 
             <intent-filter>

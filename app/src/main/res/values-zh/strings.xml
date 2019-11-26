@@ -28,5 +28,6 @@
     <string name="min">上电</string>
     <string name="max">电电</string>
     <string name="uv">击电</string>
+    <string name="toolbar">点击上方的</string>
 
 </resources>

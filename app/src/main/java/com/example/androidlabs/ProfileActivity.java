@@ -20,6 +20,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     EditText emailEditText;
     ImageButton mImageButton;
     Button weatherForecast;
+    Button toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         chatButton.setOnClickListener(this);
         weatherForecast = findViewById(R.id.weatherForecast);
         weatherForecast.setOnClickListener(this);
-
+        toolbar = findViewById(R.id.toolbar);
+        toolbar.setOnClickListener(this);
     }
     @Override
     public void onClick(View v){
@@ -57,6 +59,10 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                 startActivity(weatherForecastIntent);
                 break;
 
+            case R.id.toolbar:
+                Intent toolbarIntent = new Intent(getApplicationContext(), ToolBar.class);
+                startActivity(toolbarIntent);
+                break;
         }
     }
     static final int REQUEST_IMAGE_CAPTURE = 1;
